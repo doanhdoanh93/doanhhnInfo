@@ -40,10 +40,10 @@ function zoomImages(className) {
   // Say hello when access page.
   if (window.innerWidth < 992) {
     // Default position of notify is bottom-right
-    alertify.success("Have a good day, everyone! I'm Hoang Doanh from Viet Nam.", 7);
+    alertify.success("Chào mừng bạn ghé thăm CV của tôi. Chúc bạn một ngày mới tốt lành.", 7);
   } else {
     alertify.set("notifier","position", "top-right");
-    alertify.success("Have a good day, everyone! I'm Hoang Doanh from Viet Nam.", 7);
+    alertify.success("Chào mừng bạn ghé thăm CV của tôi. Chúc bạn một ngày mới tốt lành.", 7);
   }
 
   // Zoom images that have class name: img-zoomable
